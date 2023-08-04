@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    height: 100%;
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.n1{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+}
+.n2{
+    display: flex;
+    
+}
+.navitem{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.navitem a{
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#logoimg{
+    width: 8%;
+}
+
+.content{
+    display: flex;
+    padding: 2rem;
+    
+    position: relative;
+}
+.text{
+    padding: 5rem;
+}
+.pic{
+    padding: 2rem;
+}
+#musicboy{
+    border-radius: 35px;
+    height: 70vh;
+    width: 60vh;
+}
+#waves{
+    position: absolute;
+    right: 17rem;
+    bottom: 0rem;
+}
+h1{
+    font-size: 3rem;
+}
+#search{
+    width: 30rem;
+    height: 2rem;
+    border-radius: 15px;
+}
+:placeholder-shown{
+    padding: 5px;
+}
+
+.ex{
+    color: gray;
+}
+.navitem:hover{
+    text-decoration: underline;
+}
